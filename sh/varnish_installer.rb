@@ -102,6 +102,11 @@ VMODS = [
   {
     :name => "header",
     :url  => "https://github.com/varnish/libvmod-header.git"
+  },
+  {
+    :name => "geoip",
+    :url  => "https://github.com/varnish/libvmod-geoip.git",
+    :deps => ["libgeoip-dev"]
   }
 ]
 
