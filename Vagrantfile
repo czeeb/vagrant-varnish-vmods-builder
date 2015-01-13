@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "precise64"
   config.cache.enable :apt
   config.cache.enable :gem
-  config.cache.enable_nfs  = true
+  #config.cache.enable_nfs  = true
   config.ssh.forward_agent = true
 
   # for our custom packages
